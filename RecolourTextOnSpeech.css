@@ -1,0 +1,6 @@
+.z-30 { 
+	color: inherit;
+}
+/* Change text colour when someone is speaking */
+[data-speaking="true"]  { color: #ffffff !important; }
+[data-speaking="false"] { color: #aaaaaa; !important; }
