@@ -1,0 +1,3 @@
+/* hide specific user*/
+[data-discord-id="123456789012345678"] { display: none !important; } /* Someone */
+[data-discord-id="987654321098765432"] { display: none !important; } /* SomeoneElse */
