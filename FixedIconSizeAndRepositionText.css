@@ -1,0 +1,39 @@
+/* Replace 160px with the height of your browser source
+   Replace 128px with the desired width/height of user profile pics
+   Replace 32px  with the difference between the above two values (e.g. 160-120 = 32)
+   Replace 16px  with half the above value */
+
+/* Overall per-user container */
+[data-speaking="true"], [data-speaking="false"] {
+	max-height: 160px !important;
+	max-width: 160px !important;
+	height: 160px !important;
+	width: 160px !important;
+	overflow: hidden !important;
+}
+
+/* Image style */
+canvas { 
+	align: top !important;
+	margin-left: 16px !important;
+	margin-right: 16px !important;
+	filter: drop-shadow(0 0 6px #000) !important;
+	overflow: hidden !important;
+	object-fit: cover;
+	height: 128px !important;
+	margin-bottom: 32px !important;
+}
+
+/* Text style */
+.z-30 { 
+	color: inherit; /* Specify a colour, or leave as inherit if you intend to use RecolourTextOnSpeech.css */
+	font-family: ***WHATEVER*** !important;
+	font-stretch: ***WHATEVER*** !important;
+	text-wrap: balance !important;
+	text-wrap-mode: wrap !important;
+	word-break: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-shadow: ***WHATEVER*** !important;
+}
