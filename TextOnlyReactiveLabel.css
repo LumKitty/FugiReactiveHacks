@@ -1,0 +1,40 @@
+/* Use the group source, not the individual, then put in the discord user ID at the bottom */
+
+/* Overall per-user container */ /* Set this to the same as your main reactive */
+[data-speaking="true"], [data-speaking="false"] {
+	max-height: 160px !important;
+	max-width: 160px !important;
+	height: 160px !important;
+	width: 160px !important;
+	overflow: hidden !important;
+}
+
+/* Image style */
+canvas { 
+	display: none !important;
+}
+
+/* Text style */ /* Also set this to the same as your main reactive */
+.z-30 { 
+	color: inherit;
+	font-family: ***WHATEVER*** !important;
+	font-stretch: ***WHATEVER*** !important;
+	text-wrap: balance !important;
+	text-wrap-mode: wrap !important;
+	word-break: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-shadow: ***WHATEVER*** !important;
+}
+
+/* Change text colour when someone is speaking */ /* Probably also set this to the same as main */
+[data-speaking="true"] { color: #ffffff !important; }
+[data-speaking="false"] { color: #aaaaaa; !important; }
+
+/* Remove discord not loaded error */
+.opacity-90 { display: none !important; }
+
+/* hide all but specific user*/ /*      vvvvvvvvvvvvvvvvvv - Change this! */
+[data-discord-id]:not([data-discord-id="123456789012345678"]) { display: none !important; }) /* User */
+                                /*      ^^^^^^^^^^^^^^^^^^ */
