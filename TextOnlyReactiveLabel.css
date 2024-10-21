@@ -16,6 +16,7 @@ canvas {
 
 /* Text style */ /* Also set this to the same as your main reactive */
 .z-30 { 
+	display: block;
 	color: inherit;
 	font-family: ***WHATEVER*** !important;
 	font-stretch: ***WHATEVER*** !important;
