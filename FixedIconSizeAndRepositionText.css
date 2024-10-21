@@ -21,11 +21,13 @@ canvas {
 	overflow: hidden !important;
 	object-fit: cover;
 	height: 128px !important;
-	margin-bottom: 32px !important;
+	margin-bottom: 0px !important;
+	margin-top: 32px !important;
 }
 
 /* Text style */
 .z-30 { 
+	display: block;
 	color: inherit; /* Specify a colour, or leave as inherit if you intend to use RecolourTextOnSpeech.css */
 	font-family: ***WHATEVER*** !important;
 	font-stretch: ***WHATEVER*** !important;
