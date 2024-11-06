@@ -12,7 +12,7 @@ This will resolve spacing issues if you have guests with non-square reactive ima
 - Images will have a drop shadow applied and this even works properly if your guest is using transparent images
 - Text labels will be moved above the image and limited to one line.
 - Long names will be truncated with an ellipsis ...
-- You can provide a custom font, colour, text-shadow wet.
+- You can provide a custom font, colour, text-shadow etc.
 
 Unfortunately fugitech reactives crop the bottom few pixels off guest images and this cannot be fixed, so I recommend placing your reactives at the bottom of your stream layout, or inside a box element of some sort.
 If you are using the default values, your browser source should be 160 pixels high. For other sizes I recommend editing the sizes in the CSS and the height of your browser source rather than applying OBS scaling.
