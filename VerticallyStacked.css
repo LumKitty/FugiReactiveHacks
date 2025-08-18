@@ -1,0 +1,8 @@
+/* Vertically stacked reactives */
+.grid {
+	margin-top: -20px !important;
+}
+.h-screen {
+	display: flex !important;
+	flex-direction: column !important;
+}
