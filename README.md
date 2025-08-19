@@ -33,6 +33,9 @@ This will allow you to completely remove a user from the Reactives so they aren'
 ### TextOnlyReactiveLabels.css
 This will allow you to create a SEPARATE browser source for one user that shows their text label without their profile pic. For a Stream Together guest you could place this over their Stream Together feed so they still have a light up speaking label.
 
+### VerticallyStacked.css
+This will arrange your reactives in a column format. Please ensure that your browser source is the same width you specified in FixedIconSizeAndRepositionText.css. You may also wish to edit the text alignment to make it bottom aligned rather than top
+
 Warning: If you need to create a speaking label for yourself. You will need to enable "Include Own Image in Group View" in the Fugitech settings, you will probably also want to include yourself in HideSpecificUsers.css
 
 If you find these useful, consider giving me a follow or a raid over at:
