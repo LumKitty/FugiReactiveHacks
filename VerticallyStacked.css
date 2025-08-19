@@ -1,4 +1,5 @@
 /* Vertically stacked reactives */
+/* Please consider uncommenting the option in FixedIconSizeAndRepositionText.css to bottom-align your text labels */
 .grid {
 	margin-top: -20px !important;
 }
