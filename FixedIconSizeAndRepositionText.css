@@ -23,6 +23,7 @@ canvas {
 	height: 128px !important;
 	margin-bottom: 0px !important;
 	margin-top: 32px !important;
+    /* 
 }
 
 /* Text style */
@@ -38,4 +39,6 @@ canvas {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	text-shadow: ***WHATEVER*** !important;
+	/* align-self: flex-end !important; */ /* Uncomment this for text at bottom of image, leave commented for text at top. */
+	                                       /* Also consider swapping the values for margin-bottom and margin-top if doing this */
 }
