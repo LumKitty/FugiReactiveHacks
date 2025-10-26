@@ -1,7 +1,3 @@
-**8 Sept 2025 - Fugi have updated their website and changed everything. Assume these mods no-longer work**
-
-I'll figure out what to do once things have settled down. I hate relying on websites that can change or go down, so maybe it's time to make an app
-
 # CSS hacks for fugitech discord reactives
 
 <img width="1071" height="741" alt="image" src="https://github.com/user-attachments/assets/048dfd5a-4599-40f7-9145-d3fe6a5fcf31" />
