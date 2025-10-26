@@ -3,7 +3,13 @@
 .grid {
 	margin-top: -20px !important;
 }
-.h-screen {
-	display: flex !important;
+.flex {
 	flex-direction: column !important;
+	aspect-ratio: 1 / 1 !important;
+	width: 100% !important;
+	object-fit: cover !important;
+}
+.max-w-full {
+	align: center !important;
+	height: 100% !important;
 }
